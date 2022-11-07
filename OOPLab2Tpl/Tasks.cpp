@@ -189,7 +189,7 @@ void task3()
 		char a[8][8];
 		TextCode1 res[8][8] = { 0 };
 		cin.ignore(8, '\n');
-		cout << "enter 8 lines of text of 8 characters each(or less)" << endl;
+		cout << "enter 8 lines of text of 8 characters each(or less) ANOTHER WILL BE ERROR" << endl;
 		for (int i = 0; i < 8; i++) {
 			cin.getline(a[i], 9);
 		}
